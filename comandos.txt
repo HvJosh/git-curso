@@ -6,7 +6,16 @@ git config --global user.email "jhvargas563@gmail.com"
 Git init:  iniciar repositorio o que git este pendiente de nuestro cambios 
 git add: añadir nuestros archivos al commit.
 git commit: snapshot,generar nuestra version
+git commit -m "comentario": para que no se habra el bash, si no que ingrese el commit con el mensaje
 git status: ver si hay cambios en nuestros archivos
 git log: ver commits
 git checkout -- archivo.extension : elimina los cambios realizados, despues del commit 
 git diff archivo.extension: mira los cambios de un archivo      
+
+::::::::::::::::::::: ignorear archivos :::::::::::::::::::::::::::::::
+crear archivo .gitignore y dentro el nombre de los archivos que se quiere ignorar
+example:
+.gitignore
+    test
+    prueba.js 
+    
