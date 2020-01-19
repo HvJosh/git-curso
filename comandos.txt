@@ -24,3 +24,8 @@ example:
 git branch : ver ramas
 git branch nombreRama : crear nueva rama
 git checkout nombreRama: cambiar de rama
+
+:::::::::::::::::::::::: Subir a repositorio :::::::::::::::::::::
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
+git push -u origin master
+
