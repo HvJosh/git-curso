@@ -5,6 +5,7 @@ git config --global user.email "jhvargas563@gmail.com"
 :::::::::::::::::::: comandos basicos:::::::::::::::::::::::::::::::::::::::::
 Git init:  iniciar repositorio o que git este pendiente de nuestro cambios 
 git add: añadir nuestros archivos al commit.
+git add . : agregar todos los archivos
 git commit: snapshot,generar nuestra version
 git commit -m "comentario": para que no se habra el bash, si no que ingrese el commit con el mensaje
 git status: ver si hay cambios en nuestros archivos
@@ -19,3 +20,7 @@ example:
     test
     prueba.js 
     
+:::::::::::::::::::::::: Ramas ::::::::::::::::::::::::::::::::::
+git branch : ver ramas
+git branch nombreRama : crear nueva rama
+git checkout nombreRama: cambiar de rama
