@@ -29,3 +29,5 @@ git checkout nombreRama: cambiar de rama
 git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 git push -u origin master
 
+::::::::::::::::::::::: Clonar Repositorio ::::::::::::::::::::::::
+git clone https://github.com/joshReder82/git-curso.git
